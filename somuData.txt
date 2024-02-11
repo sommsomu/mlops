@@ -1,3 +1,11 @@
 Hello Somu,
 Welcome to VIM ,
 Again editing file
+
+
+git checkout -b <branch name>  // to create new branch
+git add . // add newly created file to commit Note: not yet pushed to repo
+git status // shows details about new files edits, deletes , ned files add-ons
+git commit -am "<Specifi commit message>" // now all your local changes are commited with some commitId ,but still its in your local machine, not pushed to repo.
+
+git push -f origin <branchName>// push your commits to repo and you can see your changes in repo
